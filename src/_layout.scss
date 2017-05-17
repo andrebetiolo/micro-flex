@@ -1,0 +1,45 @@
+@import 'placeholders';
+
+[column]{
+	@extend %column;
+}
+
+[row]{
+	@extend %row;
+}
+
+[flex]{
+	@extend %flex;
+}
+
+[wrap]{
+	@extend %wrap;
+}
+
+[align="center"], [align="center center"], [align="center start"], [align="center end"]{
+  @extend %justify-center;
+}
+
+[align="end"], [align="end center"], [align="end start"], [align="end end"]{
+  @extend %justify-end;
+}
+
+[align="space-around"], [align="space-around center"], [align="space-around start"], [align="space-around end"]{
+  @extend %justify-space-around;
+}
+
+[align="space-between"], [align="space-between center"], [align="space-between start"], [align="space-between end"]{
+  @extend %justify-space-between;
+}
+
+[align="center center"], [align="start center"], [align="end center"], [align="space-between center"], [align="space-around center"]{
+  @extend %align-center;
+}
+
+[align="center start"], [align="start start"], [align="end start"], [align="space-between start"], [align="space-around start"]{
+  @extend %align-start;
+}
+
+[align="center end"], [align="start end"], [align="end end"], [align="space-between end"], [align="space-around end"]{
+  @extend %align-end;
+}

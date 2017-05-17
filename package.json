@@ -1,0 +1,19 @@
+{
+  "name": "micro-flex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -w sass/ -o www/css",
+    "compile-examples": "node-sass -r examples/scss-using-placeholders/scss -o examples/scss-using-placeholders/css/",
+    "compile-src": "node-sass -r src -o dist && node-sass --output-style compressed src/micro-flex.scss dist/micro-flex.min.css",
+    "build": "npm run compile-src && npm run compile-examples",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

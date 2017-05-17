@@ -1,0 +1,18 @@
+@import '../../../src/placeholders';
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(27deg, #151515 5px, transparent 5px), linear-gradient(207deg, #151515 5px, transparent 5px), linear-gradient(27deg, #222 5px, transparent 5px), linear-gradient(207deg, #222 5px, transparent 5px), linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(180deg, #1D1D1D 25%, #1A1A1A 25%, #1A1A1A 50%, transparent 50%, transparent 75%, #242424 75%, #242424 100%), #131313;
+  background-position: 0 5px, 10px 0, 0 10px, 10px 5px, 0 0, 0 0;
+  background-size: 20px 20px;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  @extend %column;
+  @extend %justify-space-around;
+  @extend %align-center;
+}
