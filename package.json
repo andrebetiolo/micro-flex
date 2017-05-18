@@ -1,7 +1,7 @@
 {
   "name": "micro-flex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Micro CSS framework created over flexbox layout, with placeholders and HTML attributes, based on AngularJS Material",
   "main": "index.js",
   "scripts": {
     "watch": "node-sass -w sass/ -o www/css",

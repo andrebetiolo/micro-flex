@@ -1,6 +1,6 @@
 # Micro Flex
 
-Micro CSS framework created over flexbox layout, with placeholders and HTML attributes
+Micro CSS framework created over flexbox layout, with placeholders and HTML attributes, based on AngularJS Material
 
 You can see examples in "examples" folder.
 
