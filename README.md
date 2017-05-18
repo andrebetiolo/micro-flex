@@ -40,3 +40,41 @@ main {
   @extend %align-center;
 }
 ```
+
+## Placeholders
+
+  - %flex
+  - %row
+  - %column
+  - %wrap
+  - %align-start
+  - %align-center
+  - %align-end
+  - %justify-space-between
+  - %justify-space-around
+  - %justify-end
+  - %justify-center
+
+## HTML Attributes
+
+  - [flex]
+
+  - [column]
+
+  - [row]
+
+  - [wrap]
+
+  - [align="center"], [align="center center"], [align="center start"], [align="center end"]
+
+  - [align="end"], [align="end center"], [align="end start"], [align="end end"]
+
+  - [align="space-around"], [align="space-around center"], [align="space-around start"], [align="space-around end"]
+
+  - [align="space-between"], [align="space-between center"], [align="space-between start"], [align="space-between end"]
+
+  - [align="center center"], [align="start center"], [align="end center"], [align="space-between center"], [align="space-around center"]
+
+  - [align="center start"], [align="start start"], [align="end start"], [align="space-between start"], [align="space-around start"]
+
+  - [align="center end"], [align="start end"], [align="end end"], [align="space-between end"], [align="space-around end"]
