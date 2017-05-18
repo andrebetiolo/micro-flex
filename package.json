@@ -4,6 +4,7 @@
   "description": "Micro CSS framework created over flexbox layout, with placeholders and HTML attributes, based on AngularJS Material",
   "main": "index.js",
   "scripts": {
+    "register-bower": "bower register micro-flex git://github.com/andrebetiolo/micro-flex.git",
     "watch": "node-sass -w sass/ -o www/css",
     "compile-examples": "node-sass -r examples/scss-using-placeholders/scss -o examples/scss-using-placeholders/css/",
     "compile-src": "node-sass -r src -o dist && node-sass --output-style compressed src/micro-flex.scss dist/micro-flex.min.css",
