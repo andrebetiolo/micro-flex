@@ -3,10 +3,15 @@
  * Micro Flex (https://github.com/andrebetiolo/micro-flex)
  * Copyright 2017 André Betiolo
  */
-[row], [column], [flex] {
+[row], [column] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+
+[flex] {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
 
 [row] {
   -webkit-flex-direction: row;

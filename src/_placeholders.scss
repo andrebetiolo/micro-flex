@@ -4,6 +4,12 @@
 	display: flex;
 }
 
+%flex1{
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
 %row{
 	@extend %flex;
 	-webkit-flex-direction: row;
