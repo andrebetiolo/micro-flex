@@ -3,7 +3,7 @@
   "authors": [
     "André Betiolo <andrebetiolo@gmail.com>"
   ],
-  "description": "",
+  "description": "Micro CSS framework created over flexbox layout, with placeholders and HTML attributes, based on AngularJS Material",
   "main": "",
   "license": "MIT",
   "homepage": "",
